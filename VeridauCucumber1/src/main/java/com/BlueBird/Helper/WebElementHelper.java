@@ -17,6 +17,7 @@ import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 
 import com.BlueBird.Util.Constants;
 
@@ -578,7 +579,12 @@ public class WebElementHelper extends WaitHelper {
 		}
 		selectFromDropDown1(text);
 	}
-
+	
+	public void selectFromText(By by, String textToSelect) {
+		Select drp=new Select(driver.findElement(by));
+		wait.until(ExpectedConditions.presenceOfElementLocated(by));
+		drp.selectByVisibleText(textToSelect);
+	}
 	
 	
 	/**

@@ -27,14 +27,14 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 
 		features = {
-				"classpath:featureFiles/Login/Login.feature",
+				//"classpath:featureFiles/Login/Login.feature",
 				//"classpath:featureFiles/UserManager/UserManager.feature",
-				//"C:\Users\sumit.soni\git\VCucumber\VeridauCucumber1\src\test\resources\featureFiles\OrganizationalGroups\OrganizationalGroups.feature"
+				"classpath:featureFiles/OrganizationalGroups/OrganizationalGroups.feature"
 		},
 		tags = { "~@ignore"},
 		glue = { "com.BlueBird.StepDefinition" },
 		plugin = { "junit:target/cucumberJunit.xml" , "com.BlueBird.Util.CustomFormatter"},
-		dryRun = true
+		dryRun = false
 		)
 
 public class SequentialRunnerTest {

@@ -168,25 +168,29 @@ public class OrganizationalGroups extends BasePage {
 		webElementHelper.TypeInto(BranchName, generateData.generateRandomString(6));
 				
 	}
-	public void SelectStoredGroupName() {
+	public void SelectStoredGroupName() throws InterruptedException {
 		String xpath=String.format("//a[text()='%s']", Variables.groupName);
 		webElementHelper.scrollToElement(webElementHelper.getElement(By.xpath(xpath)));
 		webElementHelper.click(webElementHelper.getElement(By.xpath(xpath)));
+		Thread.sleep(2000);
 		
 	}
 	
 	/** click on Edit button */
 	@FindBy(xpath = "//button[contains(text(),'Edit')]")
 	private WebElement Edit;
-	public void clickonEdit() throws InterruptedException {	
+	public void clickonEdit() throws InterruptedException {
+		waithelper.WaitForElementVisible(Edit);
 			webElementHelper.click(Edit);		
 	}
 	
 	/** click on Attribute dropdown */
 	@FindBy(xpath = "//select[@id='attribute-value']")
 	private WebElement GroupAttribute;
-	public void clickonGroupAttribute() throws InterruptedException {	
+	public void clickonGroupAttribute() throws InterruptedException {
+			waithelper.WaitForElementVisible(GroupAttribute);
 			webElementHelper.click(GroupAttribute);	
+			//webElementHelper.selectFromText(null, "Regional");
 			webElementHelper.selectFromDropDown("Regional");
 			webElementHelper.click(SaveChange);
 	}
