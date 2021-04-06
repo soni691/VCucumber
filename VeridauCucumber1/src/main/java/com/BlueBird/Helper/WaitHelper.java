@@ -82,6 +82,7 @@ public class WaitHelper {
 		wait.withTimeout(Constants.EXPLICIT_WAIT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(Constants.IMPLICIT_WAIT, TimeUnit.SECONDS);
 	}
+	
 
 	/**
 	 * Wait for element enabled.

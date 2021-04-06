@@ -56,31 +56,36 @@ public class OrganizationalGroups extends BasePage {
 	@FindBy(xpath = "//button[contains(text(),'Save Changes')]")
 	private WebElement SaveChange;
 	public void clickonSaveChanges() throws InterruptedException {	
-			webElementHelper.click(SaveChange);		
+		waithelper.WaitForElementVisible(SaveChange);
+			webElementHelper.click(SaveChange);	
+			Thread.sleep(2000);
 	}
 	
 	@FindBy(xpath = "//p[text()='Organizational Group Saved']")
 	private WebElement GroupSavedPopup;
-	public void VerifyGroupSavedPopup() {
-		waithelper.WaitForElementVisible(GroupSavedPopup);
-		driver.navigate().refresh(); 
-		driver.switchTo().alert().accept();
+	public void VerifyGroupSavedPopup() throws InterruptedException {
+		webElementHelper.isElementDisplayed(GroupSavedPopup);
+		//waithelper.WaitForElementVisible(GroupSavedPopup);
+		//driver.navigate().refresh(); 
+		//driver.switchTo().alert().accept();
 	}
 	
 	@FindBy(xpath = "//p[text()='Region saved']")
 	private WebElement RegionSavedPopup;
-	public void VerifyRegionSavedPopup() {
-		waithelper.WaitForElementVisible(RegionSavedPopup);
-		driver.navigate().refresh(); 
-		driver.switchTo().alert().accept();
+	public void VerifyRegionSavedPopup() throws InterruptedException {
+		webElementHelper.isElementDisplayed(RegionSavedPopup);
+		//waithelper.WaitForElementVisible(RegionSavedPopup);
+		//driver.navigate().refresh(); 
+		//driver.switchTo().alert().accept();
 	}
 	
 	@FindBy(xpath = "//p[text()='Branch saved']")
 	private WebElement BranchSavedPopup;
-	public void VerifyBrnchSavedPopup() {
-		waithelper.WaitForElementVisible(BranchSavedPopup);
-		driver.navigate().refresh(); 
-		driver.switchTo().alert().accept();
+	public void VerifyBrnchSavedPopup() throws InterruptedException {
+		webElementHelper.isElementDisplayed(BranchSavedPopup);
+		//waithelper.WaitForElementVisible(BranchSavedPopup);
+		//driver.navigate().refresh(); 
+		//driver.switchTo().alert().accept();
 	}
 	
 	/** click on New Region button */
@@ -95,7 +100,8 @@ public class OrganizationalGroups extends BasePage {
 	private WebElement RegionName;
 	public void enterRegionName() throws InterruptedException {
 		webElementHelper.click(RegionName);	
-		webElementHelper.TypeInto(RegionName, generateData.generateRandomString(6));
+		Variables.regionName =generateData.generateRandomString(6);	
+		webElementHelper.TypeInto(RegionName, Variables.regionName);
 				
 	}
 	
@@ -165,12 +171,15 @@ public class OrganizationalGroups extends BasePage {
 	private WebElement BranchName;
 	public void enterBranchName() throws InterruptedException {
 		webElementHelper.click(BranchName);	
-		webElementHelper.TypeInto(BranchName, generateData.generateRandomString(6));
+		Variables.branchName =  generateData.generateRandomString(6);
+		webElementHelper.TypeInto(BranchName, Variables.branchName);
 				
 	}
 	public void SelectStoredGroupName() throws InterruptedException {
 		String xpath=String.format("//a[text()='%s']", Variables.groupName);
+		//webElementHelper.scrollToBottom();
 		webElementHelper.scrollToElement(webElementHelper.getElement(By.xpath(xpath)));
+		//webElementHelper.scrollToElement(webElementHelper.getElement(By.xpath(xpath)));
 		webElementHelper.click(webElementHelper.getElement(By.xpath(xpath)));
 		Thread.sleep(2000);
 		
@@ -187,16 +196,47 @@ public class OrganizationalGroups extends BasePage {
 	/** click on Attribute dropdown */
 	@FindBy(xpath = "//select[@id='attribute-value']")
 	private WebElement GroupAttribute;
+	@FindBy(xpath = "//option[contains(text(),'Regional')]")
+	private WebElement Regional;
 	public void clickonGroupAttribute() throws InterruptedException {
 			waithelper.WaitForElementVisible(GroupAttribute);
 			webElementHelper.click(GroupAttribute);	
-			//webElementHelper.selectFromText(null, "Regional");
-			webElementHelper.selectFromDropDown("Regional");
+			webElementHelper.click(Regional);
 			webElementHelper.click(SaveChange);
 	}
 	public void VerifyUpdatePopup() {
 		waithelper.WaitForElementVisible(GroupSavedPopup);
 		
+	}
+	public void SelectStoredRegionName() throws InterruptedException {
+		String xpath=String.format("//a[text()='%s']", Variables.groupName);
+		webElementHelper.click(webElementHelper.getElement(By.xpath(xpath)));
+		System.out.println(xpath);
+		String xpath1=String.format("//a[text()='%s']", Variables.regionName);
+		System.out.println(xpath1);
+		webElementHelper.scrollToElement(webElementHelper.getElement(By.xpath(xpath1)));
+		webElementHelper.click(webElementHelper.getElement(By.xpath(xpath1)));
+		Thread.sleep(2000);
+		
+	}
+	public void VerifyUpdateRegionPopup() {
+		webElementHelper.isElementDisplayed(RegionSavedPopup);
+		//driver.navigate().refresh(); 
+		//driver.switchTo().alert().accept();
+		
+	}
+	public void SelectedBranchName() {
+		String xpath=String.format("//a[text()='%s']", Variables.groupName);
+		webElementHelper.click(webElementHelper.getElement(By.xpath(xpath)));
+		System.out.println(xpath);
+		String xpath1=String.format("//a[text()='%s']", Variables.regionName);
+		System.out.println(xpath1);
+		webElementHelper.scrollToElement(webElementHelper.getElement(By.xpath(xpath1)));
+		webElementHelper.click(webElementHelper.getElement(By.xpath(xpath1)));
+		String xpath2=String.format("//a[text()='%s']", Variables.branchName);
+		System.out.println(xpath2);
+		webElementHelper.scrollToElement(webElementHelper.getElement(By.xpath(xpath2)));
+		webElementHelper.click(webElementHelper.getElement(By.xpath(xpath2)));
 	}
 
 }

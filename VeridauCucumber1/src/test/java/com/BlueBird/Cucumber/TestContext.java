@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 
+import com.BB.PageObject.adminHQ.AdminHQ;
 import com.BlueBird.Factory.DriverFactory;
 import com.BlueBird.Helper.WaitHelper;
 import com.BlueBird.Helper.WebElementHelper;
@@ -52,6 +53,7 @@ public class TestContext {
 	
 	private WaitHelper WaitHelperPage;
 	
+	private AdminHQ adminHQPage;
 	/**
 	 * Instantiates a new test context.
 	 */
@@ -113,6 +115,10 @@ public class TestContext {
 		return organizationalgroupsPage;
 	}
 	
+	public AdminHQ getadminHQPage() {
+		adminHQPage = new AdminHQ(this.driver, this.webElementHelper);
+		return adminHQPage;
+	}
 	/**
 	 * Gets the common page.
 	 *

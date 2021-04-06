@@ -24,6 +24,11 @@ public class OrganizationalGroupsStepDefinition {
 		ogroupspage.SelectStoredGroupName();
 	}
 	
+	@And("^I select Stored Region Name$")
+	public void I_select_Stored_Region_Name() throws Throwable {
+		ogroupspage.SelectStoredRegionName();
+	}
+	
 	@And("^I click on New button$")
 	public void I_click_on_New_button() throws Throwable {
 		ogroupspage.clickonNew();
@@ -104,6 +109,13 @@ public class OrganizationalGroupsStepDefinition {
 	    
 	}
 	
+	@And("^I select Stored Branch Name$")
+	public void I_select_Stored_Branch_Name() throws Throwable {
+		ogroupspage.SelectedBranchName();
+	   System.out.println("Branch is Updated");
+	    
+	}
+	
 	@And("^I click on Branch button$")
 	public void i_click_on_Branch_button() throws Throwable {
 		ogroupspage.clickonNewBranch();
@@ -173,6 +185,17 @@ public class OrganizationalGroupsStepDefinition {
 	@Then("^a group is updated$")
 	public void a_group_is_updated() throws Throwable {
 	    ogroupspage.VerifyUpdatePopup();
+	   
+	}
+	@Then("^a region is updated$")
+	public void a_region_is_updated() throws Throwable {
+	    ogroupspage.VerifyUpdateRegionPopup();
+	   
+	}
+	
+	@Then("^a branch is updated$")
+	public void a_branch_is_updated() throws Throwable {
+	    ogroupspage.VerifyBrnchSavedPopup();
 	   
 	}
 }

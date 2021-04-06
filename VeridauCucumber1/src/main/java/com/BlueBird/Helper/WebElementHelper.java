@@ -288,7 +288,10 @@ public class WebElementHelper extends WaitHelper {
 		js.executeScript("arguments[0].scrollIntoView();", element);
 		ThreadSleep(300);
 	}
-	
+	public void scrollToBottom() {
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 js.executeScript("window.scrollBy(0, 350)", "");
+	}
 	/**
 	 * Mouse over JS.
 	 *

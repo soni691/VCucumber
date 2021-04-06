@@ -14,6 +14,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
+import org.testng.annotations.Test;
 
 import com.BlueBird.Helper.PropertyHelper;
 import com.BlueBird.Util.Constants;
@@ -23,13 +24,15 @@ import com.BlueBird.Util.Variables;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
+@Test
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
 		features = {
 				//"classpath:featureFiles/Login/Login.feature",
 				//"classpath:featureFiles/UserManager/UserManager.feature",
-				"classpath:featureFiles/OrganizationalGroups/OrganizationalGroups.feature"
+				//"classpath:featureFiles/OrganizationalGroups/OrganizationalGroups.feature"
+				"classpath:featureFiles/HomePage/HomePage.feature"
 		},
 		tags = { "~@ignore"},
 		glue = { "com.BlueBird.StepDefinition" },
