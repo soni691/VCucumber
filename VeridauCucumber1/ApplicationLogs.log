@@ -1,16 +1,39 @@
-2021-04-06 12:13:51 INFO  ********* Starting Test Execution. ***********
-2021-04-06 12:13:58 INFO  ****************************
-2021-04-06 12:13:58 INFO  Scenario : Validate Admin HQ options scenario
-2021-04-06 12:13:58 INFO  Scenario start time: 2021-04-06 12:13:58
-2021-04-06 12:13:58 INFO  Launching web application URL: http://node-1.nginx.portal.da-1.clic.qa.aws.veriday.net/login
-2021-04-06 12:14:11 INFO  Writing 'da.client.admin@veriday.com' into web-element: [[ChromeDriver: chrome on XP (68a4046b46de42ff4cf8cd104f4db0e0)] -> xpath: //input[@id='A5755:loginForm:email']]
-2021-04-06 12:14:11 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (68a4046b46de42ff4cf8cd104f4db0e0)] -> xpath: //input[@id='A5755:loginForm:email']]
-2021-04-06 12:14:11 INFO  Writing 'Test12345' into web-element: [[ChromeDriver: chrome on XP (68a4046b46de42ff4cf8cd104f4db0e0)] -> xpath: //input[@id='A5755:loginForm:password']]
-2021-04-06 12:14:11 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (68a4046b46de42ff4cf8cd104f4db0e0)] -> xpath: //input[@id='A5755:loginForm:password']]
-2021-04-06 12:14:12 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (68a4046b46de42ff4cf8cd104f4db0e0)] -> xpath: //input[@id='A5755:loginForm:login']]
-2021-04-06 12:14:12 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (68a4046b46de42ff4cf8cd104f4db0e0)] -> xpath: //input[@id='A5755:loginForm:login']]
-2021-04-06 12:14:12 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (68a4046b46de42ff4cf8cd104f4db0e0)] -> xpath: //input[@id='A5755:loginForm:login']]
-2021-04-06 12:14:27 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (68a4046b46de42ff4cf8cd104f4db0e0)] -> xpath: //input[@id='A5755:loginForm:login']]
-2021-04-06 12:14:28 INFO  The scenario 'Validate Admin HQ options scenario' completed with status = UNDEFINED
-2021-04-06 12:14:28 INFO  Scenario end time: 2021-04-06 12:14:28
-2021-04-06 12:14:28 INFO  
+2021-04-07 15:41:34 INFO  ********* Starting Test Execution. ***********
+2021-04-07 15:41:40 INFO  ****************************
+2021-04-07 15:41:40 INFO  Scenario : Validate Admin HQ options scenario
+2021-04-07 15:41:40 INFO  Scenario start time: 2021-04-07 15:41:40
+2021-04-07 15:41:40 INFO  Launching web application URL: http://node-1.nginx.portal.da-1.clic.qa.aws.veriday.net/login
+2021-04-07 15:41:51 INFO  Writing 'da.client.admin@veriday.com' into web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //input[@id='A5755:loginForm:email']]
+2021-04-07 15:41:51 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //input[@id='A5755:loginForm:email']]
+2021-04-07 15:41:52 INFO  Writing 'Test12345' into web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //input[@id='A5755:loginForm:password']]
+2021-04-07 15:41:52 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //input[@id='A5755:loginForm:password']]
+2021-04-07 15:41:52 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //input[@id='A5755:loginForm:login']]
+2021-04-07 15:41:52 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //input[@id='A5755:loginForm:login']]
+2021-04-07 15:41:52 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //input[@id='A5755:loginForm:login']]
+2021-04-07 15:41:53 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //input[@id='A5755:loginForm:login']]
+2021-04-07 15:42:22 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //h3[contains(text(),'Admin HQ')]]
+2021-04-07 15:42:22 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //h3[contains(text(),'Admin HQ')]]
+2021-04-07 15:42:22 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //h3[contains(text(),'Admin HQ')]]
+2021-04-07 15:42:23 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //h3[contains(text(),'Admin HQ')]]
+2021-04-07 15:42:23 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //h3[contains(text(),'Admin HQ')]]
+2021-04-07 15:42:39 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //button[contains(text(),'Search for a Hub')]]
+2021-04-07 15:42:39 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Global Settings')]]
+2021-04-07 15:42:39 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Global Settings')]]
+2021-04-07 15:42:39 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Global Settings')]]
+2021-04-07 15:42:39 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Global Settings')]]
+2021-04-07 15:42:39 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Global Settings')]]
+2021-04-07 15:42:57 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[@id='profile-settings-tab-label']]
+2021-04-07 15:42:57 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Email Templates')]]
+2021-04-07 15:42:57 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Email Templates')]]
+2021-04-07 15:42:57 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Email Templates')]]
+2021-04-07 15:42:57 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Email Templates')]]
+2021-04-07 15:42:57 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Email Templates')]]
+2021-04-07 15:43:15 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //button[normalize-space()='Add Template']]
+2021-04-07 15:43:15 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Maintenance')]]
+2021-04-07 15:43:15 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Maintenance')]]
+2021-04-07 15:43:15 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Maintenance')]]
+2021-04-07 15:43:15 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Maintenance')]]
+2021-04-07 15:43:27 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //button[contains(text(),'Reindex Content Data')]]
+2021-04-07 15:43:28 INFO  The scenario 'Validate Admin HQ options scenario' completed with status = PASSED
+2021-04-07 15:43:28 INFO  Scenario end time: 2021-04-07 15:43:28
+2021-04-07 15:43:28 INFO  
