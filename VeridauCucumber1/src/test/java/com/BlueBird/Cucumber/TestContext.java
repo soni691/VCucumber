@@ -14,7 +14,7 @@ import com.BlueBird.PageObject.adminHQ.AdminHQ;
 import com.BlueBird.PageObjects.CalendarPage;
 import com.BlueBird.PageObjects.CommonPage;
 import com.BlueBird.PageObjects.HomePage;
-
+import com.BlueBird.PageObjects.DigitalWorkSpace.DigitalWorkSpace;
 import com.BlueBird.PageObjects.Login.LoginPage;
 import com.BlueBird.PageObjects.OrganizationGroups.OrganizationalGroups;
 
@@ -50,6 +50,8 @@ public class TestContext {
 	private UserManager usermanagerPage;
 	
 	private OrganizationalGroups organizationalgroupsPage;
+	
+	private DigitalWorkSpace digitalworkspacePage;
 	
 	private WaitHelper WaitHelperPage;
 	
@@ -113,6 +115,11 @@ public class TestContext {
 	public OrganizationalGroups getOrganizationalGroupsPage() {
 		organizationalgroupsPage = new OrganizationalGroups(this.driver, this.webElementHelper);
 		return organizationalgroupsPage;
+	}
+	
+	public DigitalWorkSpace getDigitalWorkspacePage() {
+		digitalworkspacePage = new DigitalWorkSpace(this.driver, this.webElementHelper);
+		return digitalworkspacePage;
 	}
 	
 	public AdminHQ getadminHQPage() {

@@ -1,39 +1,89 @@
-2021-04-07 15:41:34 INFO  ********* Starting Test Execution. ***********
-2021-04-07 15:41:40 INFO  ****************************
-2021-04-07 15:41:40 INFO  Scenario : Validate Admin HQ options scenario
-2021-04-07 15:41:40 INFO  Scenario start time: 2021-04-07 15:41:40
-2021-04-07 15:41:40 INFO  Launching web application URL: http://node-1.nginx.portal.da-1.clic.qa.aws.veriday.net/login
-2021-04-07 15:41:51 INFO  Writing 'da.client.admin@veriday.com' into web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //input[@id='A5755:loginForm:email']]
-2021-04-07 15:41:51 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //input[@id='A5755:loginForm:email']]
-2021-04-07 15:41:52 INFO  Writing 'Test12345' into web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //input[@id='A5755:loginForm:password']]
-2021-04-07 15:41:52 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //input[@id='A5755:loginForm:password']]
-2021-04-07 15:41:52 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //input[@id='A5755:loginForm:login']]
-2021-04-07 15:41:52 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //input[@id='A5755:loginForm:login']]
-2021-04-07 15:41:52 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //input[@id='A5755:loginForm:login']]
-2021-04-07 15:41:53 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //input[@id='A5755:loginForm:login']]
-2021-04-07 15:42:22 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //h3[contains(text(),'Admin HQ')]]
-2021-04-07 15:42:22 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //h3[contains(text(),'Admin HQ')]]
-2021-04-07 15:42:22 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //h3[contains(text(),'Admin HQ')]]
-2021-04-07 15:42:23 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //h3[contains(text(),'Admin HQ')]]
-2021-04-07 15:42:23 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //h3[contains(text(),'Admin HQ')]]
-2021-04-07 15:42:39 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //button[contains(text(),'Search for a Hub')]]
-2021-04-07 15:42:39 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Global Settings')]]
-2021-04-07 15:42:39 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Global Settings')]]
-2021-04-07 15:42:39 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Global Settings')]]
-2021-04-07 15:42:39 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Global Settings')]]
-2021-04-07 15:42:39 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Global Settings')]]
-2021-04-07 15:42:57 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[@id='profile-settings-tab-label']]
-2021-04-07 15:42:57 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Email Templates')]]
-2021-04-07 15:42:57 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Email Templates')]]
-2021-04-07 15:42:57 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Email Templates')]]
-2021-04-07 15:42:57 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Email Templates')]]
-2021-04-07 15:42:57 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Email Templates')]]
-2021-04-07 15:43:15 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //button[normalize-space()='Add Template']]
-2021-04-07 15:43:15 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Maintenance')]]
-2021-04-07 15:43:15 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Maintenance')]]
-2021-04-07 15:43:15 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Maintenance')]]
-2021-04-07 15:43:15 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //a[contains(text(),'Maintenance')]]
-2021-04-07 15:43:27 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (622dc100da62c059d5f81242f3b35bb4)] -> xpath: //button[contains(text(),'Reindex Content Data')]]
-2021-04-07 15:43:28 INFO  The scenario 'Validate Admin HQ options scenario' completed with status = PASSED
-2021-04-07 15:43:28 INFO  Scenario end time: 2021-04-07 15:43:28
-2021-04-07 15:43:28 INFO  
+2021-04-08 15:19:59 INFO  ********* Starting Test Execution. ***********
+2021-04-08 15:20:06 INFO  ****************************
+2021-04-08 15:20:06 INFO  Scenario : Validate Digital Workspace options scenario
+2021-04-08 15:20:06 INFO  Scenario start time: 2021-04-08 15:20:06
+2021-04-08 15:20:07 INFO  Launching web application URL: http://node-1.nginx.portal.da-1.clic.qa.aws.veriday.net/login
+2021-04-08 15:20:17 INFO  Writing 'da.client.admin@veriday.com' into web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //input[@id='A5755:loginForm:email']]
+2021-04-08 15:20:17 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //input[@id='A5755:loginForm:email']]
+2021-04-08 15:20:18 INFO  Writing 'Test12345' into web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //input[@id='A5755:loginForm:password']]
+2021-04-08 15:20:18 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //input[@id='A5755:loginForm:password']]
+2021-04-08 15:20:19 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //input[@id='A5755:loginForm:login']]
+2021-04-08 15:20:19 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //input[@id='A5755:loginForm:login']]
+2021-04-08 15:20:19 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //input[@id='A5755:loginForm:login']]
+2021-04-08 15:20:30 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //input[@id='A5755:loginForm:login']]
+2021-04-08 15:20:32 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //h3[contains(text(),'Admin HQ')]]
+2021-04-08 15:20:32 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //h3[contains(text(),'Admin HQ')]]
+2021-04-08 15:20:32 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //h3[contains(text(),'Admin HQ')]]
+2021-04-08 15:20:32 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //h3[contains(text(),'Admin HQ')]]
+2021-04-08 15:20:32 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //h3[contains(text(),'Admin HQ')]]
+2021-04-08 15:20:44 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //button[normalize-space()='Search for a Hub']]
+2021-04-08 15:20:44 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //button[normalize-space()='Search for a Hub']]
+2021-04-08 15:20:44 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //button[normalize-space()='Search for a Hub']]
+2021-04-08 15:20:44 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //button[normalize-space()='Search for a Hub']]
+2021-04-08 15:20:44 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //button[normalize-space()='Search for a Hub']]
+2021-04-08 15:20:44 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[normalize-space()='Back to Digital Workspace']]
+2021-04-08 15:20:44 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[normalize-space()='Back to Digital Workspace']]
+2021-04-08 15:20:44 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[normalize-space()='Back to Digital Workspace']]
+2021-04-08 15:20:44 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[normalize-space()='Back to Digital Workspace']]
+2021-04-08 15:21:00 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[@href='/user-manager']]
+2021-04-08 15:21:00 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[@href='/user-manager']]
+2021-04-08 15:21:00 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[@href='/user-manager']]
+2021-04-08 15:21:00 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[@href='/user-manager']]
+2021-04-08 15:21:19 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //button[normalize-space()='Search Users']]
+2021-04-08 15:21:19 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //button[normalize-space()='Search Users']]
+2021-04-08 15:21:19 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //button[normalize-space()='Search Users']]
+2021-04-08 15:21:19 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //button[normalize-space()='Search Users']]
+2021-04-08 15:21:19 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //button[normalize-space()='Search Users']]
+2021-04-08 15:21:19 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[normalize-space()='Back to Digital Workspace']]
+2021-04-08 15:21:19 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[normalize-space()='Back to Digital Workspace']]
+2021-04-08 15:21:20 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[normalize-space()='Back to Digital Workspace']]
+2021-04-08 15:21:20 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[normalize-space()='Back to Digital Workspace']]
+2021-04-08 15:21:34 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //h3[contains(text(),'Queues')]]
+2021-04-08 15:21:34 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //h3[contains(text(),'Queues')]]
+2021-04-08 15:21:34 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //h3[contains(text(),'Queues')]]
+2021-04-08 15:21:34 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //h3[contains(text(),'Queues')]]
+2021-04-08 15:21:46 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //input[@placeholder='search']]
+2021-04-08 15:21:46 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //input[@placeholder='search']]
+2021-04-08 15:21:46 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //input[@placeholder='search']]
+2021-04-08 15:21:46 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //input[@placeholder='search']]
+2021-04-08 15:21:46 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //input[@placeholder='search']]
+2021-04-08 15:21:46 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[normalize-space()='Back to Digital Workspace']]
+2021-04-08 15:21:46 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[normalize-space()='Back to Digital Workspace']]
+2021-04-08 15:21:46 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[normalize-space()='Back to Digital Workspace']]
+2021-04-08 15:21:46 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[normalize-space()='Back to Digital Workspace']]
+2021-04-08 15:21:57 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //h3[contains(text(),'Organizational Groups')]]
+2021-04-08 15:21:57 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //h3[contains(text(),'Organizational Groups')]]
+2021-04-08 15:21:57 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //h3[contains(text(),'Organizational Groups')]]
+2021-04-08 15:21:57 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //h3[contains(text(),'Organizational Groups')]]
+2021-04-08 15:22:09 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //button[contains(text(),'+ New')]]
+2021-04-08 15:22:09 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //button[contains(text(),'+ New')]]
+2021-04-08 15:22:09 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //button[contains(text(),'+ New')]]
+2021-04-08 15:22:09 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //button[contains(text(),'+ New')]]
+2021-04-08 15:22:09 INFO  unknown error: Element <button class="btn btn-primary btn-add-new dropdown-toggle" data-toggle="dropdown" href="#">...</button> is not clickable at point (840, 203). Other element would receive the click: <div id="da-organizational-group-loader-container" class="span12" style="height: 780px;">...</div>
+  (Session info: chrome=89.0.4389.114)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 37 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-T371OBQ', ip: '192.168.113.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\SUMIT~1.SON\AppData\Local\Temp\scoped_dir12968_1886}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=89.0.4389.114, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b8ba61ee19210d7e666e1d877b7582d3
+2021-04-08 15:22:13 ERROR Element could not be found. no such element: Unable to locate element: {"method":"class name","selector":"ext-el-mask"}
+  (Session info: chrome=89.0.4389.114)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-T371OBQ', ip: '192.168.113.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73), userDataDir=C:\Users\SUMIT~1.SON\AppData\Local\Temp\scoped_dir12968_1886}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=89.0.4389.114, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b8ba61ee19210d7e666e1d877b7582d3
+*** Element info: {Using=class name, value=ext-el-mask}
+2021-04-08 15:22:14 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //button[contains(text(),'+ New')]]
+2021-04-08 15:22:14 INFO  Clicking on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[normalize-space()='Back to Digital Workspace']]
+2021-04-08 15:22:14 INFO  Waiting for the element to be visible : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[normalize-space()='Back to Digital Workspace']]
+2021-04-08 15:22:14 INFO  Waiting for the element to be clickable : [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[normalize-space()='Back to Digital Workspace']]
+2021-04-08 15:22:14 INFO  Clicked on web-element: [[ChromeDriver: chrome on XP (b8ba61ee19210d7e666e1d877b7582d3)] -> xpath: //a[normalize-space()='Back to Digital Workspace']]
+2021-04-08 15:22:30 INFO  The scenario 'Validate Digital Workspace options scenario' completed with status = PASSED
+2021-04-08 15:22:30 INFO  Scenario end time: 2021-04-08 15:22:30
+2021-04-08 15:22:30 INFO  
